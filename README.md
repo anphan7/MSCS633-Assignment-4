@@ -33,14 +33,3 @@ Place `creditcard.csv` in this folder before running.
 python3 -m pip install -r requirements.txt
 python3 fraud_detection_autoencoder.py
 ```
-
-## Results (test set)
-
-| Metric | Value |
-| --- | --- |
-| ROC-AUC | 0.9495 |
-| Average Precision (PR-AUC) | 0.2950 |
-| Fraud recall (frauds caught) | 77.7% (115 / 148) |
-
-Artifacts written to `outputs/`: `reconstruction_error.png`, `roc_curve.png`,
-`confusion_matrix.png`, `precision_recall.png`, and `terminal_screenshot.png`.
