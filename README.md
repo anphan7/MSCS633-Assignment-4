@@ -44,13 +44,3 @@ python3 fraud_detection_autoencoder.py
 
 Artifacts written to `outputs/`: `reconstruction_error.png`, `roc_curve.png`,
 `confusion_matrix.png`, `precision_recall.png`, and `terminal_screenshot.png`.
-
-## Files
-
-| File | Purpose |
-| --- | --- |
-| `fraud_detection_autoencoder.py` | Main experiment (load → train → evaluate → plot) |
-| `requirements.txt` | Manifest file (pinned dependencies) |
-| `make_screenshot.py` | Renders the console output as a terminal screenshot |
-| `make_report.py` | Builds the Word deliverable |
-| `outputs/` | Generated plots and screenshot |
